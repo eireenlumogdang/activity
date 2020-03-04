@@ -14,7 +14,7 @@
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
-
+<center>
     <div class="navbar">
         <a href="index.php?navigation=product">Products</a>
         <a href="index.php?navigation=categories">Category</a>
@@ -36,6 +36,6 @@
 		?>
 		</select>
 	<input type="submit" name="submit" value="submit"/>
-
+	</center>
 </form>
 </html>
