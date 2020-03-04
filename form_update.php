@@ -22,9 +22,9 @@
     </div>
 	<h1> Update Product </h1>
 <form action="pro_update.php?id=<?php echo $id ?>" method="POST">
-	<input type="text" name="name" value="<?php echo $result['name'];?>"/>
-	<input type="text" name="description" value="<?php echo $result['description']; ?>"/>
-	<input type="text" name="price" value="<?php echo $result['price']; ?>"/>
+	<input type="text" name="name" value="<?php echo $result['name'];?>"/> </br>
+	<input type="text" name="description" value="<?php echo $result['description']; ?>"/> </br>
+	<input type="text" name="price" value="<?php echo $result['price']; ?>"/> </br>
 	<select name="category">
 	<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
 		<?php
@@ -34,8 +34,8 @@
 		<?php
 		}
 		?>
-		</select>
-	<input type="submit" name="submit" value="submit"/>
+		</select></br>
+	<input type="submit" name="submit" value="submit"/> 
 	</center>
 </form>
 </html>
