@@ -8,14 +8,10 @@ $list = $details['records'];
 
 $value = $list;
 ?>
-<center>
-<html> 
-    <head>  
-      <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-  <center> <h1> API TEST </h1> </center>
+<link rel="stylesheet" type="text/css" href="style.css">
 
-   
+<center>
+    <center> <h1> API TEST </h1> </center>
     <div class="navbar">
         <a href="index.php?navigation=product">Products</a>
         <a href="index.php?navigation=categories">Category</a>
@@ -42,4 +38,3 @@ $value = $list;
 
 </table>
 </center>
-</html>
