@@ -13,14 +13,14 @@ $value = $list;
     <head>  
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+  <center> <h1> API TEST </h1> </center>
 
-
+   
     <div class="navbar">
         <a href="index.php?navigation=product">Products</a>
         <a href="index.php?navigation=categories">Category</a>
         <a href="index.php?navigation=create">Create</a>
     </div>
-
 <h1> Product Details </h1>
 
 <table>
